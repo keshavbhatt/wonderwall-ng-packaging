@@ -1,52 +1,16 @@
-# WonderWall NG (starting from v8.0.0) distributable:
-Different installable packages for [Wonderwall NG Application](https://ktechpit.com/USS/public/product.php?slug=wonderwall)
+# WonderWall packaging assets
 
-## Latest Release Wonderwall:
-Check the [Latest release page](https://github.com/keshavbhatt/wonderwall-ng-packaging/releases/latest) for Download Links.
+Store screenshots and icons for [WonderWall](https://github.com/keshavbhatt/WonderWall).
+Generated from the app by `scripts/capture-shots.sh` + `scripts/screenshots.py` in the app
+repository.
 
-## Stores links and install instructions for wonderwall:
+| Path | Use |
+|---|---|
+| `images/` | App-window screenshots (1920x1200 JPEG). The AppStream metainfo links to these for Flathub. |
+| `store/snapstore/` | Composed 3840x2160 screenshots for the Snap Store listing. |
+| `store/microsoft/` | Composed 2560x1440 screenshots for the Microsoft Store listing. |
+| `store/banner.jpg` | The Snap Store featured banner (4320x1440). |
+| `images/icons/` | App icons. |
 
-* [Microsoft Windows store](https://www.microsoft.com/en-us/p/wonderwall-wallpaper-manager/9ngnl36nr0ft)
-	
-	`install using windows app store`	
-
-* [Linux Snapcraft store](https://snapcraft.io/wonderwall)
-	
-	`snap install wonderwall`
-
-* [Linux Flathub store](https://flathub.org/apps/details/com.ktechpit.wonderwall)
-	
-	`flatpak install flathub com.ktechpit.wonderwall`
-
-* [Arch Linux AUR](https://aur.archlinux.org/packages/wonderwall/)
-	
-	`yay -S wonderwall`
-
-* [Other Downoad options including AppImage can be found in Release page](https://github.com/keshavbhatt/wonderwall-ng-packaging/releases/latest)
-
-## WonderWall is a Powerful Desktop Wallpaper manager for Linux and Windows Desktop
-
-Wonderwall is a desktop wallpaper downloader/manager utility that allows you to browse download and apply wallpaper from huge collection of wallpapers.
-
-Feature included are:
-
--   Search wallpaper using Colors, Tags, Categories, Resolution, Popularity, Views, Rating etc with the powerful filter tools.
--   Crop/Scale Downloaded wallpaper to make it fit into your Screen Resolution.
--   Browse through the world's largest collection of online 4k and Ultra HD Wallpapers.
--   Maintains Download Library.
--   Supports major desktop environments - windows, cinnamon, deepin, lxqt, mate, pantheon, kde-plasma-5, unity, xfce4 and even FEH and WAL are added as supported backends.
-
-Keywords : обои на стену
-
-**Downloaded wallpaper location:**
-
-Download location is browsable from settings. Click "Open" button in wallpaper download location settings section.
-
-**Wonderwall Screenshots (version 8.0) Linux:**
-
-![1](https://raw.githubusercontent.com/keshavbhatt/wonderwall-ng-packaging/refs/heads/main/images/1.png)
-![1](https://raw.githubusercontent.com/keshavbhatt/wonderwall-ng-packaging/refs/heads/main/images/2.png)
-![1](https://raw.githubusercontent.com/keshavbhatt/wonderwall-ng-packaging/refs/heads/main/images/3.png)
-![1](https://raw.githubusercontent.com/keshavbhatt/wonderwall-ng-packaging/refs/heads/main/images/4.png)
-![1](https://raw.githubusercontent.com/keshavbhatt/wonderwall-ng-packaging/refs/heads/main/images/5.png)
-
+Scenes: home, filter, color, preview, library, settings. The wallpapers shown are
+SFW General most-viewed images.
